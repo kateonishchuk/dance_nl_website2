@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive E-Commerce Website Design Tutorial</title>
+    <!-- owl carousel css file cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/home.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+<!-- header section starts  -->
+<header>
+    <div class="header-top">
+        <a href="#" class="logo">
+            <!-- <img id="logotype" src="img/logotype.jpg" alt="logo" /> -->
+            <i class="fas fa-cookie-bite"></i>
+            Студія "Dance NL"
+            <i class="fas fa-cookie-bite"></i>           
+        </a>
+        <div class="form-container">
+            <form action="">
+                <input type="search" placeholder="Що Вас цікавіть ?" id="search" /> 
+                <label for="search" class="fas fa-search"></label>
+            </form>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#dashboard"><i class="fas fa-house-user"></i> Головна</a></li>
+                <li><a href="#income"><i class="fab fa-black-tie"></i> Асортимент</a></li>
+                <li><a href="#featured"><i class="fab fa-atlassian"></i> Події</a></li>
+                <li><a href="#gallery"><i class="fas fa-camera-retro"></i> Фотогалерея</a></li>
+                <li><a href="#contacts"><i class="fas fa-book-open"></i> Контакти</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-bookmark"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-comment-dots"></a>
+            <a href="#" class="fas fa-calendar-alt"></a>
+        </div>
+    </div>
+</header>
+<!-- header section ends -->
+
+<!-- category filter starts -->
+<section class = "menu">
+    <div class = "menu-container">
+      <div class = "menu-head">
+        <h2>Асортимент одягу для спортивно-бального танцю</h2>
+        <p>Колекція одягу, що є у наявності постійно оновлюється та проходить перевірку. Слідкуйте за новинами та оголошеннями про оновлення асортименту
+      </div>
+      <div class = "menu-btns">
+        <button type = "button" class = "menu-btn active-btn" id = "featured">Балетки жіночі (classic)</button>
+        <button type = "button" class = "menu-btn" id = "today-special">Аксесуари (Стрічки)</button>
+        <button type = "button" class = "menu-btn" id = "new-arrival">Туфлі чоловічі (classic)</button>
+      </div>
+
+      <div class = "food-items">
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <img src = "img/shoes-img1.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Балетки жіночі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">95.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img2.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">128.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <img src = "img/shoes-img3.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Балетки жіночі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">123.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <img src = "img/shoes-img4.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Балетки жіночі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">132.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <img src = "img/shoes-img5.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Балетки жіночі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">148.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <img src = "img/shoes-img6.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Балетки жіночі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">178.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <img src = "img/shoes-img7.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Балетки жіночі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">118.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <img src = "img/shoes-img8.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Балетки жіночі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">129.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <img src = "img/shoes-img9.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Балетки жіночі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">145.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <img src = "img/shoes-img10.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Балетки жіночі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">145.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <img src = "img/shoes-img11.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Балетки жіночі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">178.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <img src = "img/shoes-img12.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Балетки жіночі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">67.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img13.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+                <h2 class = "food-name">Балетки жіночі (classic)</h2>
+                <div class = "line"></div>
+                <h3 class = "food-price">67.00 грн.</h3>
+                <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                </ul>
+                <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img14.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img15.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img16.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img17.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img18.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img19.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img20.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img21.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img22.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img23.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img24.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img25.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img26.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img27.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img28.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img29.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img30.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img31.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img32.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img33.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img34.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img35.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img36.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img37.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img38.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img39.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img40.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+              <!-- item -->
+              <div class = "food-item featured">
+                <div class = "food-img">
+                  <img src = "img/shoes-img41.jpg" alt = "food image">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Балетки жіночі (classic)</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">67.00 грн.</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+                </div>
+            </div>
+            <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img42.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img43.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img44.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img45.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img46.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img47.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img48.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img49.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img50.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "img/shoes-img51.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Балетки жіночі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">67.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (жіноче)</span></p>
+            </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item new-arrival">
+          <div class = "food-img">
+            <img src = "img/shoes-img13.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Туфлі чоловічі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">78.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (чоловіче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item new-arrival">
+          <div class = "food-img">
+            <img src = "foods/noodles-with-egg-and-vegetables.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Туфлі чоловічі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">87.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (чоловіче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item new-arrival">
+          <div class = "food-img">
+            <img src = "foods/pizza-with-a-lot-of-cheese.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Туфлі чоловічі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">98.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (чоловіче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item new-arrival">
+          <div class = "food-img">
+            <img src = "foods/summer-juicy-beef-burger.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Туфлі чоловічі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">136.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (чоловіче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item new-arrival">
+          <div class = "food-img">
+            <img src = "foods/tacos-with-pulled-pork-fresh-vegetables-and-cream.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Туфлі чоловічі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">103.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (чоловіче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item new-arrival">
+          <div class = "food-img">
+            <img src = "foods/tiny-pickles-on-top-of-burger.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Туфлі чоловічі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">96.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (чоловіче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+        <div class = "food-item new-arrival">
+          <div class = "food-img">
+            <img src = "foods/tortilla-chips-with-salsa.jpg" alt = "food image">
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Туфлі чоловічі (classic)</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">106.00 грн.</h3>
+            <ul class = "rating">
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "fas fa-star"></i></li>
+              <li><i class = "far fa-star"></i></li>
+            </ul>
+            <p class = "category">Категорія: <span>Взуття (чоловіче)</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+         <!-- item -->
+         <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "foods/tortilla-chips-with-salsa.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Туфлі чоловічі (classic)</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">126.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Взуття (чоловіче)</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta1.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">25.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta2.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">43.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta3.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">37.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta4.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta5.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta6.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta7.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta8.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta9.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta10.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta11.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta12.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta13.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta14.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta15.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta16.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta17.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta18.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta19.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta20.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta21.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta22.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta23.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta24.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta25.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta26.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+           <!-- item -->
+        <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "img/lenta27.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Стрічки</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">26.00 грн.</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Категорія: <span>Аксесуари</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+      </div>
+    </div>
+  </section>
+<!-- category filter ends -->
+
+<!-- gallery scripts -->
+<script src="js/gallery.js"></script>
+</body>
+</html>
