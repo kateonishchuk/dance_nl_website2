@@ -13,8 +13,11 @@
 body {
     line-height: 1.5;
     font-family: var(--Mont);
-    background-color: #91ccae;
     color: #fff;
+}
+
+.page {
+    background-color: #cf1932;
 }
 
 .menu {
@@ -25,6 +28,25 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 1rem;
+}
+
+.header-top a {
+    text-decoration: none;
+}
+
+
+.header-top a span {
+    color: #fff;
+    font-weight: 700;
+}
+
+.menu-wrap h2,
+.menu-wrap p {
+    color: #fff;
+}
+
+.navbar ul li a {
+    text-decoration: none;
 }
 
 img {
@@ -87,8 +109,43 @@ img {
     opacity: 0.8;
 }
 
+.pag-nav {
+    margin: 1rem 3.5rem;
+}
+
+.pag {
+    width: 50rem;
+}
+
+.page-link {
+    font-size: 20px;
+    font-weight: 600;
+    width: 10rem;
+}
+
+.logo i {
+    background-color: #fff;
+}
+
+.page-item a {
+    text-align: center;
+}
+
+.page-item a:hover {
+    color: #e7880a;
+    background-color: #a3a09b;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.fas, .fab {
+    text-decoration: none;
+}
+
 .active-btn {
-    color: #fff;
+    color: #e7880a;
 }
 
 .wardrobe-items {
@@ -118,6 +175,8 @@ img {
 
 .wardrobe-img img {
     border-radius: 4px;
+    max-width: 250px;
+    max-height: 200px;
 }
 
 .wardrobe-content {
@@ -180,6 +239,14 @@ img {
 
 .category span {
     font-weight: 500;
+}
+
+#prev-l {
+    font-size: 2rem;
+}
+
+#next-l {
+    font-size: 2rem;
 }
 
 @media screen and (min-width: 600px){
